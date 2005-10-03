@@ -1,19 +1,28 @@
-#
-Summary:	GameBoy emulator
-Summary(pl):	Emulator GameBoya
+Summary:	GameBoy Advance emulator
+Summary(pl):	Emulator GameBoya Advance
 Name:		VGBA
 Version:	3.0
 Release:	1
 License:	Copyright (distributable)
 Group:		Applications
-Source0:	http://fms.komkon.org/%{name}/%{name}30-Linux-80x86-bin.tar.Z
+Source0:	http://fms.komkon.org/VGBA/%{name}30-Linux-80x86-bin.tar.Z
 # Source0-md5:	9e335c3ae6770b1cbfee8fd354321736
-URL:		http://fms.komkon.org/VGBA
+URL:		http://fms.komkon.org/VGBA/
 ExclusiveArch:  %{ix86}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Virtual GameBoy (VGB) is an emulator of the GameBoy videogame handheld produced by Nintendo. It runs GameBoy, Super GameBoy, and GameBoy Color games on PCs, Macs, PocketPCs, or just about any other sufficiently fast computer in existence. It can also help to debug GameBoy software without using a costly development system.
+Virtual GameBoy Advance (VGBA) is an emulator of the GameBoy Advance
+videogame handheld produced by Nintendo. It runs GameBoy Advance games
+on PCs or PocketPCs. It can also help to debug GameBoy Advance
+software without using a costly development system.
+
+%description
+Virtual GameBoy Advance (VGBA) to emulator kieszonkowej gry
+telewizyjnej GameBoy Advance produkowanej przez Nintendo. Uruchamia
+gry z GameBoya Advance na komputerach PC i PocketPC. Mo¿e tak¿e pomóc
+przy poprawianiu oprogramowania dla GameBoya Advance bez kosztownego
+systemu programistycznego.
 
 %prep
 %setup -q -c 
