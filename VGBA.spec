@@ -1,5 +1,5 @@
 Summary:	GameBoy Advance emulator
-Summary(pl):	Emulator GameBoya Advance
+Summary(pl.UTF-8):   Emulator GameBoya Advance
 Name:		VGBA
 Version:	3.0
 Release:	1
@@ -17,10 +17,10 @@ videogame handheld produced by Nintendo. It runs GameBoy Advance games
 on PCs or PocketPCs. It can also help to debug GameBoy Advance
 software without using a costly development system.
 
-%description -l pl
+%description -l pl.UTF-8
 Virtual GameBoy Advance (VGBA) to emulator kieszonkowej gry
 telewizyjnej GameBoy Advance produkowanej przez Nintendo. Uruchamia
-gry z GameBoya Advance na komputerach PC i PocketPC. Moøe takøe pomÛc
+gry z GameBoya Advance na komputerach PC i PocketPC. Mo≈ºe tak≈ºe pom√≥c
 przy poprawianiu oprogramowania dla GameBoya Advance bez kosztownego
 systemu programistycznego.
 
