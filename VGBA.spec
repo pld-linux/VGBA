@@ -1,5 +1,5 @@
 Summary:	GameBoy Advance emulator
-Summary(pl.UTF-8):   Emulator GameBoya Advance
+Summary(pl.UTF-8):	Emulator GameBoya Advance
 Name:		VGBA
 Version:	3.0
 Release:	1
